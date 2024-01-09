@@ -357,21 +357,23 @@
 }
 .portfolio_box .portfolio_img_col_1{
     display: flex;
+    justify-content: center;
     gap: 20px;
 }
 
 .portfolio_box .portfolio_img_col_2{
     margin-top:20px;
     display: flex;
+    justify-content: center;
     gap: 20px;
 }
 .portfolio_box .portfolio_img_col_1 img{
-    width: 33.33%;
+    width: 32.33%;
 
 }
 
 .portfolio_box .portfolio_img_col_2 img{
-   width: 33.33%;
+   width: 32.33%;
 }
 
 
