@@ -10,7 +10,7 @@
     scroll-behavior: smooth;
 }
 .container{
-    width: 1280px;
+    width: 1180px;
     margin:0px auto;
 }
 /*BANNER SECTION START HERE*/
@@ -45,8 +45,8 @@
 }
 .bannertext h1{
     font-size:86px;
-    padding-left:300px;
-    padding-right:300px;
+    padding-left:250px;
+    padding-right:250px;
 }
 .bannertext h4{
     font-size:32px;
@@ -318,6 +318,10 @@
 .holydays_sale_box .holydays_image{
     padding-top:68px;
 }
+.holydays_red_banner img{
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -361,7 +365,14 @@
     display: flex;
     gap: 20px;
 }
+.portfolio_box .portfolio_img_col_1 img{
+    width: 33.33%;
 
+}
+
+.portfolio_box .portfolio_img_col_2 img{
+   width: 33.33%;
+}
 
 
 
@@ -372,7 +383,11 @@
 .newsletter_box{
     background-color:#FFF2F2 ;
     background-size: cover;
-    padding: 80px 212px 140px 80px;
+    /* padding: 80px 212px 140px 80px; */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 212px;
+    padding-right: 212px;
     border-radius: 20px;
 
 }
